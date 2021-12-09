@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: radial-gradient(circle at 15%, #333, #333 50%, #eee 95%, #333 75%););
+}
+
+.intro {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.card {
+    color: #fff;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.cardleft {
+    padding: 1rem;
+    display: grid;
+    grid-column: 1/2;
+    background: linear-gradient(130deg, #05377f, #3886f7 41.07%, #d8c4ad 76.05%);
+    border: 5px solid #222;
+    border-radius: 18px;
+}
+
+.cardmiddle {
+    padding: 1rem;
+    display: grid;
+    grid-column: 2/3;
+    background: linear-gradient(130deg, #05377f, #3886f7 41.07%, #d8c4ad 76.05%);
+    border: 5px solid #222;
+    border-radius: 18px;
+}
+
+.cardright {
+    padding: 1rem;
+    display: grid;
+    grid-column: 3/4;
+    background: linear-gradient(130deg, #05377f, #3886f7 41.07%, #d8c4ad 76.05%);
+    border: 5px solid #222;
+    border-radius: 18px;
+}
+
+.card a {
+    color: #fff;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card p, a {
+    font-size: 1.5em;
+}
+
+
+
+li {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 2rem;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    margin-top: 1rem;
+}
+
+.container > li {
+    display: inline-flex;
+    align-items: flex-end;
+    width: 10rem;
+}
+
+li a {
+    position: relative;
+    text-decoration: none;
+}
+
+li a::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: Pink;
+}
+
+.hero {
+    height: 50vh;
+    margin-left: 10rem;
+
+
+}
+
+.hero h1 {
+    font-size: 4em;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+i {
+    margin-right: 10px;
+    filter: drop-shadow(1px 0 5px hsla(170, 0%, 0%, 0.5));
+}
